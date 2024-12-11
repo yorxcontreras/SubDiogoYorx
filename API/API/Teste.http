@@ -1,0 +1,30 @@
+### crear Aluno
+POST http://localhost:5246/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "Aluno" : "Yorx",
+    "AlunoId" : 1
+}
+### crear imcs
+POST http://localhost:5246/imc/cadastrar
+Content-Type: application/json
+
+{
+    "imcs" : "34567234",
+    "AlunoId" : 1
+}
+### listar imcs
+Get http://localhost:5246/imc/listar
+### listar aluno 
+Get http://localhost:5246/imc/listarporaluno
+### alterar imcs
+
+
+PUT http://localhost:5246/imc/alterar
+Content-Type: application/json
+
+{
+    "imcs" : "23465657",
+    "AlunoId" : 1
+}
